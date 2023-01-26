@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+  background-color: #f5f4f5;
+}
+
+.App-header {
+  background-color: #890089;
+  height: 40px;
+  padding: 15px;
+  color: white;
+}
+
+::marker {
+  color: #890089;
+}
+
+.App-container {
+  margin: 0px 2%;
+  padding: 5px;
+}
+
+.story-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #890089;
+  padding-bottom: 3px;
+}
+
+.story-item a {
+  text-decoration: none;
+  color: #890089;
+  font-size: 12pt;
+}
+
+.story-item:hover a {
+  color: #000;
+}
+
+button {
+  padding: 0px 16px;
+  background-color: #890089;
+  color: #fff;
+  border: 1px solid #890089;
+  border-radius: 4px;
+  min-height: 44px;
+  min-width: 80px;
+  font-weight: lighter;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #890089;
+}
+
+.loading > img {
+  width: 24px;
+}
